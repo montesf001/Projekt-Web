@@ -1,0 +1,404 @@
+                                                        @font-face {
+                                                        font-family: 'nssans';
+                                                        src: url('nssans__-webfont.ttf');
+                                                    }
+                                                    /* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+                                                    
+                                                    html,
+                                                    body,
+                                                    div,
+                                                    span,
+                                                    applet,
+                                                    object,
+                                                    iframe,
+                                                    h1,
+                                                    h2,
+                                                    h3,
+                                                    h4,
+                                                    h5,
+                                                    h6,
+                                                    p,
+                                                    blockquote,
+                                                    pre,
+                                                    a,
+                                                    abbr,
+                                                    acronym,
+                                                    address,
+                                                    big,
+                                                    cite,
+                                                    code,
+                                                    del,
+                                                    dfn,
+                                                    em,
+                                                    img,
+                                                    ins,
+                                                    kbd,
+                                                    q,
+                                                    s,
+                                                    samp,
+                                                    small,
+                                                    strike,
+                                                    strong,
+                                                    sub,
+                                                    sup,
+                                                    tt,
+                                                    var,
+                                                    b,
+                                                    u,
+                                                    i,
+                                                    center,
+                                                    dl,
+                                                    dt,
+                                                    dd,
+                                                    ol,
+                                                    ul,
+                                                    li,
+                                                    fieldset,
+                                                    form,
+                                                    label,
+                                                    legend,
+                                                    table,
+                                                    caption,
+                                                    tbody,
+                                                    tfoot,
+                                                    thead,
+                                                    tr,
+                                                    th,
+                                                    td,
+                                                    article,
+                                                    aside,
+                                                    canvas,
+                                                    details,
+                                                    embed,
+                                                    figure,
+                                                    figcaption,
+                                                    footer,
+                                                    header,
+                                                    hgroup,
+                                                    menu,
+                                                    nav,
+                                                    output,
+                                                    ruby,
+                                                    section,
+                                                    summary,
+                                                    time,
+                                                    mark,
+                                                    audio,
+                                                    video {
+                                                        margin: 0;
+                                                        padding: 0;
+                                                        border: 0;
+                                                        font-size: 100%;
+                                                        font: inherit;
+                                                        vertical-align: baseline;
+                                                    }
+                                                    /*eigen code*/
+                                                    
+                                                    .mainheader {
+                                                        background-color: white;
+                                                        padding-top: 0.5em;
+                                                    }
+                                                    
+                                                    .mainheader img {
+                                                        float: left;
+                                                        width: 8em;
+                                                        margin-left: 1em;
+                                                    }
+                                                    
+                                                    .body {
+                                                        background-color: #E6E6E9;
+                                                    }
+                                                    
+                                                    .mainheader .profiel {
+                                                        float: right;
+                                                        width: 3em;
+                                                        display: inline;
+                                                        position: absolute;
+                                                        margin-top: -2.7em;
+                                                        right: 9em;
+                                                    }
+                                                    
+                                                    .mainheader .bookmarked {
+                                                        float: right;
+                                                        width: 5em;
+                                                        display: inline;
+                                                        position: absolute;
+                                                        margin-top: -4em;
+                                                        right: 2em;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 2.5em;
+                                                        margin-right: 4em;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .sorteren {
+                                                        text-align: center;
+                                                        width: 100%;
+                                                        background-color: #1d3d99;
+                                                        list-style: none;
+                                                        height: 70px;
+                                                        margin-bottom: auto;
+                                                        margin-top: 2em;
+                                                    }
+                                                    
+                                                    .sorteren li {
+                                                        color: white;
+                                                        font-family: nssans;
+                                                        font-size: 1.5em;
+                                                        list-style-type: none;
+                                                        margin-top: 0.75em;
+                                                        text-align: left;
+                                                        display: inline-block;
+                                                        width: 31%;
+                                                        text-decoration: underline;
+                                                        font-size-adjust: auto;
+                                                    }
+                                                    
+                                                    .filteropties {
+                                                        background-color: #FFC917;
+                                                        width: 20%;
+                                                        height: 31em;
+                                                    }
+                                                    
+                                                    h2 {
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 2em;
+                                                        padding-top: 0.5em;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .schrijfstijl {
+                                                        background-color: white;
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 1em;
+                                                        margin: 0.9em 1em 0.5em 1em;
+                                                        padding: 0.75em 0.4em 0.5em;
+                                                    }
+                                                    
+                                                    schrijfstijl img {
+                                                        display: inline;
+                                                    }
+                                                    
+                                                    .niveau {
+                                                        background-color: white;
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 1em;
+                                                        margin: 3em 1em 0.5em 1em;
+                                                        padding: 0.75em 0.4em 0.5em;
+                                                    }
+                                                    
+                                                    .schrijver {
+                                                        background-color: white;
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 1em;
+                                                        margin: 3em 1em 0.5em 1em;
+                                                        padding: 0.75em 0.4em 0.5em;
+                                                    }
+                                                    
+                                                    .wis {
+                                                        background-color: #005CA0;
+                                                        box-shadow: inset 1px 4px 9px -6px;
+                                                        color: white;
+                                                        font-family: nssans;
+                                                        font-size: 1em;
+                                                        margin: 3em 1em 0.5em 1em;
+                                                        padding: 0.75em 0.4em 0.5em;
+                                                        text-align: center
+                                                    }
+                                                    
+                                                    .zoek {
+                                                        background-color: white;
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 1em;
+                                                        margin: 3em 1em 0.5em 1em;
+                                                        padding: 0.75em 0.4em 0.5em;
+                                                    }
+                                                    
+                                                    h4 {
+                                                        background-color: #003082;
+                                                        color: white;
+                                                        font-family: nssans;
+                                                        padding: 1em;
+                                                        position: absolute;
+                                                        top: 10em;
+                                                        left: 20%;
+                                                        border-radius: 0 2em 2em 0;
+                                                    }
+                                                    
+                                                    h5 {
+                                                        font-family: nssans;
+                                                        font-size: 2em;
+                                                        color: #003082;
+                                                        float: right;
+                                                        margin-left: 22em;
+                                                        position: absolute;
+                                                        top: 5em;
+                                                        right: 1%;
+                                                    }
+                                                    
+                                                    .verhaal1 {
+                                                        background-color: white;
+                                                        box-shadow: 0.1em 0.3em 0.3em black;
+                                                        width: 15%;
+                                                        padding: 0em 0.2em 2.2em 0.6em;
+                                                        position: absolute;
+                                                        top: 18.5em;
+                                                        margin-left: 25%;
+                                                    }
+                                                    
+                                                    .verhaal1 img {
+                                                        width: 2em;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    .verhaal2 {
+                                                        background-color: white;
+                                                        box-shadow: 0.1em 0.3em 0.3em black;
+                                                        width: 15%;
+                                                        padding: 0em 0.5em 2em 0.5em;
+                                                        display: inline-block;
+                                                        position: absolute;
+                                                        top: 18.5em;
+                                                        margin-left: 50%;
+                                                    }
+                                                    
+                                                    .verhaal2 img {
+                                                        width: 2em;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    .verhaal3 {
+                                                        background-color: white;
+                                                        box-shadow: 0.1em 0.3em 0.3em black;
+                                                        width: 15%;
+                                                        padding: 0em 0.5em 2em 0.5em;
+                                                        display: inline-block;
+                                                        position: absolute;
+                                                        top: 18.5em;
+                                                        margin-left: 75%;
+                                                    }
+                                                    
+                                                    .verhaal3 img {
+                                                        width: 2em;
+                                                        float: right;
+                                                    }
+                                                    
+                                                    section {
+                                                        display: inline-block;
+                                                        /*float: right;*/
+                                                    }
+                                                    
+                                                    h3 {
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 1.5em;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .metadata {
+                                                        color: #003082;
+                                                        font-family: nssans;
+                                                        font-size: 0.8em;
+                                                        padding-top: 0.3em;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .text {
+                                                        color: #006090;
+                                                        font-family: nssans;
+                                                        font-size: 0.8em;
+                                                        line-height: 1.8em;
+                                                        margin: 1em 0.5em 0.5em;
+                                                        text-align: left;
+                                                    }
+                                                    
+                                                    @media only screen and (min-width: 320px) and (max-width: 600px) {
+                                                        .mainheader img {
+                                                            float: left;
+                                                            width: 4em;
+                                                            margin-left: 1em;
+                                                        }
+                                                        h1 {
+                                                            font-size: 100%;
+                                                            margin-right: 24%
+                                                        }
+                                                        .mainheader .profiel {
+                                                            float: right;
+                                                            width: 1.5em;
+                                                            position: absolute;
+                                                            margin-top: -1.2em;
+                                                            right: 3em;
+                                                        }
+                                                        .mainheader .bookmarked {
+                                                            float: right;
+                                                            width: 2.2em;
+                                                            display: inline;
+                                                            position: absolute;
+                                                            margin-top: -1.5em;
+                                                            right: 0.5em;
+                                                        }
+                                                        .filteropties {
+                                                            font-size: 91%;
+                                                            height: 22em;
+                                                            width: 100%;
+                                                        }
+                                                        .niveau {
+                                                            margin: 1em 1em 0.5em 1em;
+                                                        }
+                                                        .schrijver {
+                                                            margin: 1em 1em 0.5em 1em;
+                                                        }
+                                                        .wis {
+                                                            margin: 1em 1em 0.5em 1em;
+                                                        }
+                                                        .zoek {
+                                                            margin: 1em 1em 0.5em 1em;
+                                                        }
+                                                        .sorteren {
+                                                            /*nog aanpassen*/
+                                                            height: 10%;
+                                                            margin-top: 4%
+                                                        }
+                                                        .sorteren li {
+                                                            font-size: 1em;
+                                                            text-align: center;
+                                                            width: 100%;
+                                                        }
+                                                        h4 {
+                                                            position: absolute;
+                                                            top: 28.5em;
+                                                            left: -0.5em;
+                                                        }
+                                                        h5 {
+                                                            display: none;
+                                                        }
+                                                        .verhaal1 {
+                                                            width: 90%;
+                                                            top: 32em;
+                                                            margin-left: 3.5%;
+                                                        }
+                                                        .verhaal2 {
+                                                            width: 90%;
+                                                            display: block;
+                                                            position: absolute;
+                                                            top: 52em;
+                                                            margin-left: 3.5%;
+                                                        }
+                                                        .verhaal3 {
+                                                            width: 90%;
+                                                            position: absolute;
+                                                            top: 71em;
+                                                            margin-left: 3.5%;
+                                                        }

@@ -1,0 +1,246 @@
+               @font-face {
+               font-family: 'nssans';
+               src: url('nssans__-webfont.ttf');
+           }
+           /* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+           
+           html,
+           body,
+           div,
+           span,
+           applet,
+           object,
+           iframe,
+           h1,
+           h2,
+           h3,
+           h4,
+           h5,
+           h6,
+           p,
+           blockquote,
+           pre,
+           a,
+           abbr,
+           acronym,
+           address,
+           big,
+           cite,
+           code,
+           del,
+           dfn,
+           em,
+           img,
+           ins,
+           kbd,
+           q,
+           s,
+           samp,
+           small,
+           strike,
+           strong,
+           sub,
+           sup,
+           tt,
+           var,
+           b,
+           u,
+           i,
+           center,
+           dl,
+           dt,
+           dd,
+           ol,
+           ul,
+           li,
+           fieldset,
+           form,
+           label,
+           legend,
+           table,
+           caption,
+           tbody,
+           tfoot,
+           thead,
+           tr,
+           th,
+           td,
+           article,
+           aside,
+           canvas,
+           details,
+           embed,
+           figure,
+           figcaption,
+           footer,
+           header,
+           hgroup,
+           menu,
+           nav,
+           output,
+           ruby,
+           section,
+           summary,
+           time,
+           mark,
+           audio,
+           video {
+               margin: 0;
+               padding: 0;
+               border: 0;
+               font-size: 100%;
+               font: inherit;
+               vertical-align: baseline;
+           }
+           /*eigen code*/
+           
+           body {
+               background-color: #E6E6E9;
+               font-family: nssans;
+           }
+           
+           .mainheader {
+               background-color: white;
+               padding-top: 0.5em;
+               padding-bottom: 1em;
+           }
+           
+           .mainheader img {
+               float: left;
+               width: 8em;
+               margin-left: 1em;
+           }
+           
+           .mainheader .profiel {
+               float: right;
+               width: 3em;
+               display: inline;
+               position: absolute;
+               margin-top: -2.7em;
+               right: 9em;
+           }
+           
+           .mainheader .bookmarked {
+               float: right;
+               width: 5em;
+               display: inline;
+               position: absolute;
+               margin-top: -4em;
+               right: 2em;
+           }
+           
+           h1 {
+               color: #003082;
+               font-family: nssans;
+               font-size: 2.5em;
+               margin-right: 4em;
+               text-align: center;
+           }
+           
+           section {
+               background-color: white;
+               margin: 2em 2% 5em 2%;
+               padding-bottom: 1em;
+               padding-left: 1em;
+           }
+           
+           fieldset {
+               border: 0;
+           }
+           
+           legend {
+               color: #003082;
+               font-size: 1.3em;
+               padding-top: 1.5em;
+               padding-bottom: 1.5em;
+           }
+           
+           h2 {
+               color: #003082;
+               font-family: nssans;
+               font-size: 2.5em;
+               padding-top: 0.5em;
+               padding-left: 0.5em;
+           }
+           
+           .vulin {
+               font-family: nssans;
+               padding-left: 1.4em;
+           }
+           
+           input[type=text] {
+               border: 0.5px solid grey;
+               display: flex;
+               margin: 15px 0;
+               padding: 16px 20px;
+               width: 60%;
+           }
+           
+           input[type=tel] {
+               border: 0.5px solid grey;
+               display: flex;
+               margin: 15px 0;
+               padding: 16px 20px;
+               width: 60%;
+           }
+           
+           input[type=email] {
+               border: 0.5px solid grey;
+               display: flex;
+               margin: 15px 0;
+               padding: 16px 20px;
+               width: 60%;
+           }
+           
+           .inlogtext {}
+           
+           .inlog {
+               background-color: white;
+               box-shadow: 0.1em 0.1em 0.3em black;
+               color: cornflowerblue;
+               display: inline-flex;
+               font;
+               padding: 1em 2em 1em 1em;
+               margin-left: 20%;
+           }
+           
+           .aanmaken {
+               background-color: #005Ca0;
+               border-color: black;
+               box-shadow: 0.1em 0.1em 0.3em black;
+               color: white;
+               display: inline-flex;
+               padding: 1em 2em 1em 1em;
+           }
+           
+           @media only screen and (min-width: 320px) and (max-width: 700px) {
+               .mainheader img {
+                   float: left;
+                   width: 4em;
+                   margin-left: 1em;
+               }
+               h1 {
+                   font-size: 100%;
+                   margin-right: 24%
+               }
+               .mainheader .profiel {
+                   float: right;
+                   width: 1.5em;
+                   position: absolute;
+                   margin-top: -1.2em;
+                   right: 3em;
+               }
+               .mainheader .bookmarked {
+                   float: right;
+                   width: 2.2em;
+                   display: inline;
+                   position: absolute;
+                   margin-top: -1.5em;
+                   right: 0.5em;
+               }
+               .vulin {
+                   max-width: 80%;
+               }
